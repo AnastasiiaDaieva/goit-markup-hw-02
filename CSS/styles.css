@@ -4,9 +4,8 @@
   --wh-cl: #ffffff;
   --bl-cl: #000000;
   --accent-cl: #2196f3;
-  --backgr-cl: #e5e5e5;
   --backgr-dark: #2f303a;
-  --button-backgr: #f5f4fa;
+  --alt-backgr: #f5f4fa;
 }
 
 body {
@@ -153,7 +152,7 @@ body {
 }
 
 .team {
-  background-color: var(--backgr-light);
+  background-color: var(--alt-backgr);
 }
 
 .member-card {
@@ -175,7 +174,7 @@ body {
 }
 
 .portfolio-button {
-  background-color: var(--button-backgr);
+  background-color: var(--alt-backgr);
   font-weight: 600;
   font-size: 16px;
   line-height: 1.62;
@@ -203,4 +202,5 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
+  font-weight: 400;
 }
