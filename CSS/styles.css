@@ -125,6 +125,9 @@ body {
 .hero {
   background-color: var(--backgr-dark);
   color: var(--wh-cl);
+}
+
+.hero-heading {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -155,14 +158,17 @@ body {
   background-color: var(--alt-backgr);
 }
 
-.member-card {
+.team .member-card {
+  background-color: var(--wh-cl);
+}
+
+.member-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--add-cl);
-  background-color: var(--wh-cl);
 }
 
 .member-position {
@@ -175,7 +181,7 @@ body {
 
 .portfolio-button {
   background-color: var(--alt-backgr);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
